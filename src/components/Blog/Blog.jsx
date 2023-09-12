@@ -18,7 +18,7 @@
                 </div>
                 <div>
                     <samp>{reading_time} min read</samp>
-                     <button onClick={handleAddToBookmark} className="ml-2 text-xl"><FaBookmark></FaBookmark></button>
+                     <button onClick={() =>  handleAddToBookmark(blog)} className="ml-2 text-xl"><FaBookmark></FaBookmark></button>
 
 
                 </div>
